@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#191638"/>
+    </linearGradient>
+    <linearGradient id="prism" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <!-- Incoming white laser -->
+  <line x1="8" y1="70" x2="54" y2="66" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <!-- RGB dispersed beams -->
+  <line x1="72" y1="58" x2="120" y2="34" stroke="#ff3b5c" stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="74" y1="64" x2="120" y2="64" stroke="#22e584" stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="72" y1="70" x2="120" y2="94" stroke="#38b6ff" stroke-width="5.5" stroke-linecap="round"/>
+  <!-- Glass prism -->
+  <polygon points="64,26 92,94 36,94" fill="url(#prism)" stroke="#e0f2fe" stroke-width="3.5" stroke-linejoin="round"/>
+</svg>
